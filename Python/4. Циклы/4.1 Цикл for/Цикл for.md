@@ -12,10 +12,13 @@ for переменная in последовательность:
 Перегрузки функции `range`:
 
 ```
-range(stop)
-range(start, stop)
-range(start, stop, step)
+range(stop) # 0 .. stop - 1
+range(start, stop) # start .. stop - 1
+range(start, stop, step) 
 ```
+`start` - начало последовательности\
+`stop` - окончание последовательности (не включительно)\
+`step` - шаг
 
 ```python
 # Сумма чисел от a до b

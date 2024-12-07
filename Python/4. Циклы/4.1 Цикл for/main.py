@@ -1,1 +1,4 @@
-print(list(range(10, 50, 3)))
+# print(list(range(10)))
+
+for num in range(10):
+    print(num, end=' ')

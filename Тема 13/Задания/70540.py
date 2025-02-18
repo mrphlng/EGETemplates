@@ -7,3 +7,10 @@ for i3 in range(256 - 248):
         if s.count('1') % 5 != 0:
             count += 1
 print(count)
+
+from ipaddress import *
+count = 0
+for ip in ip_network('172.16.168.0/255.255.248.0' , False):
+    if f'{ip:b}'.count('1') % 5 != 0:
+        count += 1
+print(count)

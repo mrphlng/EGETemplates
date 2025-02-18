@@ -7,3 +7,4 @@ for i3 in range(256 - 248):
         if s.count('1') % 5 != 0:
             count += 1
 print(count)
+

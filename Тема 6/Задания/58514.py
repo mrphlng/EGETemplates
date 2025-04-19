@@ -1,5 +1,5 @@
 from turtle import *
-tracer(1)
+tracer(0)
 koef = 20
 for i in range(6):
     fd(23 * koef)

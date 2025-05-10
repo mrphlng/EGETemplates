@@ -1,6 +1,7 @@
 from turtle import*
 tracer(0)
 k = 20
+screensize(2000,2000)
 for x in range(4):
     forward( 10 * k)
     right(90)
